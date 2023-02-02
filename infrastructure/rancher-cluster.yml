@@ -1,13 +1,13 @@
 nodes:
-  - address: 172.31.21.19             # Change with the Private Ip of rancher server
-    internal_address: 172.31.21.19      # Change with the Private Ip of rancher server
+  - address: 172.31.13.147          # Change with the Private Ip of rancher server
+    internal_address: 172.31.13.147      # Change with the Private Ip of rancher server
     user: ubuntu
     role:
       - controlplane
       - etcd
       - worker
 
-# ignore_docker_version: true
+ignore_docker_version: true
 
 services:
   etcd:
